@@ -1,0 +1,17 @@
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+.dot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fl {
+  float: left;
+}
+.wm-1200 {
+  width: 1200px;
+}

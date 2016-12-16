@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*重置CSS*/
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,h2,h3,h4,h5,h6,
+pre,
+ul,ol,li,
+dl,dt,dd,
+form,
+a,
+fieldset,
+input,
+th,
+td{
+    margin:0;
+	padding:0;
+	border:0;
+	outline:none;
+	font-family:'微软雅黑';
+}
+select,textarea{
+	outline:none;
+	font-family:'微软雅黑'}
+table {
+	border-collapse:collapse;
+	border-spacing:0}
+fieldset,img {
+	border:0}
+address,caption,cite,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal}
+ol,ul {
+	list-style:none;
+	list-style-position:inside}
+a{
+	color:#333;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color: #333;
+}
+a:link{
+	text-decoration:none;
+	color: #333;
+}
+a:visited {
+	text-decoration:none;
+	color: #333;
+}
+a:active {
+	text-decoration:none;
+	color: #333;
+}
+caption,th{
+	text-align:left;}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal}
+q:before,q:after{
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden}
+abbr,acronym{
+	border:0}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+select{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+select::-ms-expand { display: none; }
+/***** css共用**/
+body{
+	overflow-x: hidden;
+    font-size: 14px;
+    color: #333;
+	width: 100%;
+    -webkit-text-size-adjust:none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-drag: none;
+}
+img{
+	width:100%;
+	min-height:100%;
+}

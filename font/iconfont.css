@@ -1,0 +1,34 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1473242569'); /* IE9*/
+  src: url('iconfont.eot?t=1473242569#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1473242569') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1473242569') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1473242569#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xiala:before { content: "\e605"; }
+.icon-xiangshang:before { content: "\e606"; }
+.icon-iconfontdizhi:before { content: "\e602"; }
+.icon-iconfontphone3:before { content: "\e603"; }
+.icon-E-mail:before { content: "\e604"; }
+.icon-login:before { content: "\e600"; }
+.icon-register:before { content: "\e601"; }
+.icon-iconclear:before { content: "\e607"; }
+.icon-iconcustomer:before { content: "\e608"; }
+.icon-icondancheng:before { content: "\e609"; }
+.icon-iconpart:before { content: "\e60a"; }
+.icon-iconprinter:before { content: "\e60b"; }
+.icon-iconsheshi:before { content: "\e60c"; }
+.icon-icontick:before { content: "\e60d"; }
+.icon-icontimer:before { content: "\e60e"; }
+.icon-iconwangfan:before { content: "\e60f"; }
+.icon-iconwifi:before { content: "\e610"; }
